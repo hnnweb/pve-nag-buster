@@ -1,4 +1,4 @@
-## pve-nag-buster 
+## pbs-nag-buster 
 https://github.com/foundObjects/pve-nag-buster
 
 This is a dpkg post install hook script that persistently removes license nags
