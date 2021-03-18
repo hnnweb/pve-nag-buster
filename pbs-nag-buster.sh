@@ -1,9 +1,8 @@
 #!/bin/sh
 #
-# pve-nag-buster.sh (v03) https://github.com/foundObjects/pve-nag-buster
-# Copyright (C) 2019 /u/seaQueue (reddit.com/u/seaQueue)
+# pbs-nag-buster.sh (v01) https://github.com/hnnweb/pve-nag-buster
 #
-# Removes Proxmox VE 5.x+ license nags automatically after updates
+# Removes Proxmox BS 1.x+ license nags automatically after updates
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -33,7 +32,7 @@ fi
 
 # disable paid repo list
 
-PAID_BASE="/etc/apt/sources.list.d/pve-enterprise"
+PAID_BASE="/etc/apt/sources.list.d/pbs-enterprise"
 
 if [ -f "$PAID_BASE.list" ]; then
   echo "$SCRIPT: Disabling PVE paid repo list ..."
